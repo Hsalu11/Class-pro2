@@ -28,4 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm install -g @angular/cli
-    - run: ng serve --host 0.0.0.0
+    - run: sudo npm i -g pm2
+    - run: chmod +x deploy.sh
+    - run: ./deploy.sh
