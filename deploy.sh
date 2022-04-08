@@ -5,4 +5,4 @@ cd API
 pm2 start --name "Nodejs API" npm -- start --watch
 # pm2 logs Nodejs API
 
-pm2 startup systemd
+
